@@ -1,0 +1,19 @@
+{
+  "name": "10feb_11",
+  "version": "1.0.0",
+  "description": "Node.js tutorial project with Express.js endpoints",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "jest": "30.2.0",
+    "supertest": "7.2.2"
+  }
+}
