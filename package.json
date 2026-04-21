@@ -1,0 +1,23 @@
+{
+  "name": "10feb_11",
+  "version": "1.0.0",
+  "description": "A minimal Node.js tutorial server built with Express.js that exposes two HTTP GET endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
